@@ -1,0 +1,28 @@
+/*
+Media querie para impressora
+*/
+@media print {
+    article img {
+        display: none;
+    }
+    body #lost-paragraph {
+        display: block;
+        position: absolute;
+        bottom: 0%;
+        right: 0%;
+    }
+    body h1 {
+        color: black;
+    }
+    a {
+        text-decoration: none;
+    }
+    footer {
+        display: none;
+    }
+    p {
+        font-size: 10pt;
+        font-family: 'Times New Roman', Times, serif;
+        letter-spacing: 1.2px;
+    }
+}
